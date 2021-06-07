@@ -25,3 +25,6 @@ int max_sum(int arr[], int n)
         // Update result if required
         res = max(res, next_val);
     }
+ 
+    return res;
+}
